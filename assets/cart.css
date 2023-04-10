@@ -9,7 +9,7 @@
     align-items: start;
     flex-wrap: wrap;
     justify-content: space-around;
-    width: 100%;
+    width: 88%;
     min-height: 800px;
     margin: auto;
     padding: 30px 0; 
@@ -74,7 +74,7 @@ tr {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        width: 305px;
+        width: 390px;
         min-height: 258px;
         padding: var(--padding-t-bt) var(--padding-r-l);
     }
@@ -138,8 +138,11 @@ tr {
         font-family: Arial, Helvetica, sans-serif;
     }
     .form-coupon-code{
-        height: 40px;
-        width: calc(100% - 10px);
+        height: 70px;
+        width: calc(100% - 20px);
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 0 10px;
     }
     .card-footer-checkout{
         border: 1px solid #ccc;
@@ -237,6 +240,7 @@ tr {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
+        font-family: Arial, Helvetica, sans-serif;
     }
     /* end-total-cart */
 
