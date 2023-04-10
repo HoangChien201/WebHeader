@@ -2,7 +2,7 @@
     width: 100%;
     min-height: 700px;
     /* background-color: rgba(13, 69, 31, 0.26); */
-    background-image: url(/assets/ImageProJect/background.jpg);
+    background-image: url(../assets/ImageProJect/background.jpg);
     background-size: 100% 100%;
     display: flex;
     justify-content: center;
@@ -106,7 +106,7 @@
     width: calc(50% - 80px);
     height: calc(100% - 80px);
     padding: 40px;
-    background-image: url(/assets/ImageProJect/background-login-container.jpg);
+    background-image: url(../assets/ImageProJect/background-login-container.jpg);
     background-size: 100% 100%;
     border-radius: 0px 20px 20px 0px ;
 }
