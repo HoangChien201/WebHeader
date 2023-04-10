@@ -32,16 +32,16 @@ body{
     height: 100%;
 }
 .wrapper-banner-image .image-1{
-    background-image: url('/assets/ImageProJect/banner-1.jpg');
+    background-image: url('../assets/ImageProJect/banner-1.jpg');
 }
 .wrapper-banner-image .image-2{
-    background-image: url('/assets/ImageProJect/banner-2.jpg');
+    background-image: url('../assets/ImageProJect/banner-2.jpg');
 }
 .wrapper-banner-image .image-3{
-    background-image: url('/assets/ImageProJect/banner-3.jpg');
+    background-image: url('../assets/ImageProJect/banner-3.jpg');
 }
 .wrapper-banner-image .image-4{
-    background-image: url('/assets/ImageProJect/banner-4.jpg');
+    background-image: url('../assets/ImageProJect/banner-4.jpg');
 }
 
 .wrapper-banner-image .image{
