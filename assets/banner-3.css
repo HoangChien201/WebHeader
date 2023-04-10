@@ -1,0 +1,117 @@
+:root{
+    --primary:#654aff;
+    --font-sans-serif:Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0;
+}
+*{
+    margin: 0;
+}
+.wrapper-banner-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 810px;
+}
+.wrapper-banner-3 .wrapper-image{
+    width: 422px;
+    height: 690px;
+}
+.wrapper-banner-3 .wrapper-image img{
+    width: 100%;
+    height: 100%;
+}
+.wrapper-banner-3 .wrapper-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 510px;
+    height: 590px;
+    padding: 50px 60px;
+}
+.wrapper-banner-3 .topic{
+    font-size: 18px;
+    margin: 0;
+    color: var(--primary);
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    font-weight: 600;
+
+}
+.wrapper-banner-3 .heading{
+    margin: 0;
+    font-size: 60px;
+    margin-top: 20px;
+    letter-spacing: 8px;
+    font-weight:500;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.wrapper-banner-3 .license{
+    margin: 0;
+    font-size: 16px;
+    margin-top: 20px;
+    color: #111;
+}
+.wrapper-banner-3 .border{
+    margin-top: 40px;
+    border-bottom:1px solid #111; ;
+}
+.wrapper-banner-3 .wrapper-custem-icon{
+    min-width: 100%;
+    min-height: 80px;
+    padding: 30px 30px 19px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.wrapper-banner-3 .wrapper-custem-icon .content{
+    margin: 0;
+    font-size: 16px;
+    margin: -7px 0 0 30px;
+    color: #111;
+    line-height: 25px;
+
+}
+.wrapper-banner-3 .wrapper-icon{
+
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #f0edff;
+    padding: 15px;
+}
+.wrapper-banner-3 .icon{
+    width: 35px;
+    height: 35px;
+}
+.wrapper-banner-3 .index{
+    font-size: 72px;
+    color: var(--primary);
+    margin: 0;
+    margin-top: -12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+
+}
+.wrapper-banner-3 .content{
+    display: inline-block;
+    margin: 20px 0 0 0;
+    font-size: 17px;
+    color: #111;
+    line-height: 30px;
+    letter-spacing: 0.1px;
+}
+@media only screen and (max-width:700px) {
+    .wrapper-banner-3{
+        margin-bottom: 20px;
+    }
+    .wrapper-banner-3 .wrapper-text{
+        width: 390px;
+    }
+    
+}

@@ -1,0 +1,122 @@
+/* default */
+:root{
+    --primary:#654aff;
+    --font-sans-serif:Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0;
+}
+*{
+    margin: 0;
+}
+/* default */
+
+.wrapper-banner-2{
+    width: 100%;
+    min-height: 750px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: var(--primary);
+    padding: 10px 0;
+}
+.wrapper-banner-2 .heading{
+    font-size: 60px;
+    margin: 60px 215px 0;
+    color: #ffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    letter-spacing: 2px;
+    align-items: center;
+    text-align: center;
+
+}
+.wrapper-banner-2 .content{
+    font-size: 20px;
+    color: #ffff;
+    margin: 9px 155px 0;
+    align-items: center;
+    text-align: center;
+
+}
+/* list-item */
+.wrapper-banner-2 .list-item{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 80%;
+    min-height: 391px;
+    margin-top: 80px;
+}
+
+/* begin-list-item */
+.wrapper-list-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 270px;
+    max-height: 400px;
+    background-color: white;
+    border-radius:10px ;
+    padding: 0 30px 32px;
+}
+
+.wrapper-list-item .wrapper-icon{
+    max-width: 67px;
+    max-height: 67px;
+    border-radius: 50%;
+    background-color: #f0edff;
+    margin-top: -30px;
+    padding: 27px;
+}
+.wrapper-list-item .icon{
+    width: 40px;
+    height: 40px;
+    
+}
+.wrapper-list-item .heading{
+    margin: 35px 0px 0;
+    font-size: 19px;
+    text-align: center;
+    color: var(--primary);
+    text-transform:uppercase;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.wrapper-list-item .text{
+    margin: 20px 0 0;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 30px;
+    color: #524b77;
+}
+.wrapper-list-item .button{
+    width: 104px;
+    height: 47px;
+    margin-top: 20px;
+    border: 2px solid var(--primary);
+    border-radius: 4px;
+    text-align: center;
+    line-height: 47px;
+}
+.wrapper-list-item .button:hover{
+    border-color:#b3b3b3 ;
+    cursor: pointer;
+}
+/* end-list-item */
+
+/* mobile */
+@media only screen and (max-width:700px) {
+    .wrapper-banner-2{
+    }
+
+    .wrapper-banner-2 .heading,
+    .wrapper-banner-2 .content{
+        margin: 0;
+    }
+    .wrapper-list-item {
+        margin-bottom: 30px;
+    }
+}

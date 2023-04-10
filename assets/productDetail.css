@@ -1,0 +1,257 @@
+/* default */
+:root{
+    --primary:#654aff;
+    --font-sans-serif:Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0;
+}
+*{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    margin: 0 0 10px 30px;
+}
+ul{
+    padding: 0;
+}
+/* default */
+
+.container-product-detail{
+    width: 100%;
+    min-height: 600px;
+}
+.container-product-detail .banner{
+    height: 50px;
+}
+.wrapper-image-product-info{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+    min-height: 600px;
+    margin:auto;
+    /* margin-top: 50px; */
+}
+/* image */
+.container-product-detail .wraper-images{
+    min-width: calc(32% - 30px);
+    height: 600px;
+    padding: 15px;
+}
+.container-product-detail .wrapper-image-main{
+    width: 100%;
+    height: 510px;
+    position: relative;
+    overflow: hidden;
+}
+.container-product-detail .image-main{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: 2s;
+
+}
+
+.image-main:nth-child(1){
+    left: 0;
+}
+.image-main:nth-child(2){
+    left: 100%;
+    
+}
+.image-main:nth-child(3){
+    left: 200%;
+    
+}
+.image-main:nth-child(4){
+    left: 300%;
+    
+}
+
+
+/* thumb-nail */
+
+.container-product-detail .thumb-nail{
+    width: 100%;
+    height: 90px;
+}
+.container-product-detail .thumb-nail img{
+    width: calc(100% / 4 - 27px);
+    height: 100%;
+    padding: 0 10px;
+}
+.container-product-detail .thumb-nail img:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+.container-product-detail .active-image{
+    border: 2px solid #ccc;
+
+}
+
+/* product-info */
+.wrapper-product-info{
+    width: 50%;
+    min-height: 600px;
+    /* background-color: bisque; */
+    margin-left: 20px;
+}
+.heading{
+    font-size: 27px;
+    margin-bottom: 13px;
+}
+.line{
+    height: 3px;
+    width: 30px;
+    background-color: var(--primary);
+    margin: 10px 0 ;
+
+}
+.price-promotion{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 403px;
+    height: 72px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #eee;
+    border: 1px dashed #199bc4;
+}
+.price-1{
+
+
+}
+.price-cancel{
+    font-size: 18px;
+    color: #333;
+    font-weight: 400;
+    text-decoration: line-through;
+}
+.price-present{
+    color: #0259a7;
+    font-weight: 700;
+    font-size: 22px;
+}
+.price-2{
+    font-size: 15px;
+    font-style: italic;
+}
+.price-reduce{
+    color: #0259a7;
+    font-weight: 700;
+    font-size: 22px;
+    font-style: normal;
+}
+
+.feature{
+
+}
+.feature li{
+    color: red;
+    font-size: 16px;
+    font-family: var(--font-sans-serif);
+    font-weight: 600;
+}
+.cart{
+
+}
+.total-price{
+    display: flex;
+    justify-content: space-between;
+    width: 423px;
+}
+.total-price p{
+    text-transform: uppercase;
+    color: #444;
+    font-family: var(--font-sans-serif);
+    font-size: 14px;
+    line-height:45px;
+}
+.price{
+    color: #111;
+    margin: 10px 0;
+    font-weight: 700;
+    font-size: 22px;
+}
+.quantity{
+}
+.input-quantity{
+    width: 40px;
+    height: 20px;
+    font-size: 18px;
+    text-align: center;
+    margin: 0 5px;
+
+}
+.add-to-cart{
+    display: inline-block;
+    width: 244px;
+    height: 40px;
+    background-color: var(--primary);
+    border-radius: 20px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    font-family: var(--font-sans-serif);
+    font-weight: 600;
+}
+
+/* describe */
+.container-describe{
+    width: 70%;
+    min-height: 600px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.container-describe .heading{
+    font-size: 17px;
+    text-transform: uppercase;
+    width: 50px;
+    line-height: 50px;
+    color: #444;
+    font-weight: 700;
+}
+
+.container-describe li,
+.container-describe .text{
+    font-size: 16px;
+    color: #444;
+    font-family: var(--font-sans-serif);
+}
+
+.container-describe .title{
+    font-family: var(--font-sans-serif);
+    font-size: 16px;
+    color: #444;
+    margin: 20px 0;
+}
+
+@media screen and (max-width:700px) {
+    .wrapper-image-product-info{
+        width: 100%;
+    }
+    .wrapper-product-info{
+        width: 100%;
+        min-height: 420px;
+        margin: 0;
+        padding: 5px;
+    }
+    .price-promotion {
+        width: calc( 100% - 2px);
+        padding: 0;
+
+    }
+    .total-price {
+        width: 100%;
+    }
+    .container-describe {
+        width: calc(100% - 10px);
+        margin: 5px;
+    }
+}
