@@ -29,7 +29,7 @@ body{
     flex-direction: column;
     justify-content: center;
     width: 510px;
-    height: 590px;
+    min-height: 590px;
     padding: 50px 60px;
 }
 .wrapper-banner-3 .topic{
